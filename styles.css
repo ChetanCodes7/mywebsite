@@ -4,16 +4,16 @@
 
 :root {
     /* Brand Colors */
-    --primary: #8b5cf6;
-    --primary-dark: #7c3aed;
-    --primary-light: #ddd6fe;
+    --primary: #818cf8;
+    --primary-dark: #6366f1;
+    --primary-light: #c7d2fe;
 
-    --secondary: #22d3ee;
-    --accent: #facc15;
+    --secondary: #38bdf8;
+    --accent: #fbbf24;
 
     /* Neutrals */
-    --dark: #0f172a;
-    --dark-light: #1561db;
+    --dark: #080e1c;
+    --dark-light: #111d35;
 
     --gray-900: #0f172a;
     --gray-800: #1e293b;
@@ -47,7 +47,7 @@
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.12);
     --shadow-lg: 0 10px 35px rgba(15, 23, 42, 0.35);
-    --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.3);
+    --shadow-glow: 0 0 30px rgba(129, 140, 248, 0.35);
 
     /* Transitions */
     --transition-fast: 0.2s ease;
@@ -223,12 +223,12 @@ body {
 .btn-primary {
     background: var(--gradient-primary);
     color: var(--white);
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 4px 15px rgba(129, 140, 248, 0.4);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+    box-shadow: 0 8px 25px rgba(129, 140, 248, 0.55);
 }
 
 .btn-secondary {
@@ -263,8 +263,8 @@ body {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 50%, rgba(14, 165, 233, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(129, 140, 248, 0.18) 0%, transparent 50%),
+        radial-gradient(circle at 80% 50%, rgba(56, 189, 248, 0.12) 0%, transparent 50%);
     z-index: -1;
 }
 
@@ -508,7 +508,7 @@ section {
    ========================================== */
 
 .about {
-    background: #1b3360;
+    background: #0c1629;
 }
 
 .about-content {
@@ -742,7 +742,7 @@ section {
     width: 70px;
     height: 70px;
     margin: 0 auto 20px;
-    background: rgba(99, 102, 241, 0.15);
+    background: rgba(129, 140, 248, 0.15);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -770,7 +770,7 @@ section {
    ========================================== */
 
 .experience {
-    background: #1b3360;
+    background: #0c1629;
     padding: 100px 0;
 }
 
@@ -790,10 +790,10 @@ section {
 }
 
 .experience-column {
-    background: #293e63;
+    background: #172040;
     padding: 30px;
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(129, 140, 248, 0.12);
 }
 
 .column-title {
@@ -861,7 +861,7 @@ section {
 
 .timeline-date {
     display: inline-block;
-    background: rgba(99, 102, 241, 0.15);
+    background: rgba(129, 140, 248, 0.15);
     color: var(--primary);
     padding: 5px 15px;
     border-radius: 20px;
@@ -1051,7 +1051,7 @@ section {
    ========================================== */
 
 .resume {
-    background: #1b3360;
+    background: #0c1629;
 }
 
 .resume-content {
@@ -1169,7 +1169,7 @@ section {
 .download-icon {
     width: 80px;
     height: 80px;
-    background: rgba(99, 102, 241, 0.15);
+    background: rgba(129, 140, 248, 0.15);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1346,7 +1346,7 @@ section {
    ========================================== */
 
 .contact {
-    background: #1b3360;
+    background: #0c1629;
 }
 
 .contact-content {
@@ -1390,7 +1390,7 @@ section {
 .contact-icon {
     width: 55px;
     height: 55px;
-    background: rgba(99, 102, 241, 0.15);
+    background: rgba(129, 140, 248, 0.15);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
