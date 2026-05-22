@@ -12,17 +12,17 @@
     --accent: #facc15;
 
     /* Neutrals */
-    --dark: #2b3445;
-    --dark-light: #3b475c;
+    --dark: #0f172a;
+    --dark-light: #1561db;
 
-    --gray-900: #243041;
-    --gray-800: #334155;
-    --gray-700: #475569;
-    --gray-600: #64748b;
-    --gray-500: #94a3b8;
-    --gray-400: #cbd5e1;
-    --gray-300: #e2e8f0;
-    --gray-200: #f1f5f9;
+    --gray-900: #0f172a;
+    --gray-800: #1e293b;
+    --gray-700: #334155;
+    --gray-600: #475569;
+    --gray-500: #64748b;
+    --gray-400: #94a3b8;
+    --gray-300: #cbd5e1;
+    --gray-200: #e2e8f0;
     --gray-100: #f8fafc;
 
     --white: #ffffff;
@@ -46,7 +46,7 @@
     --radius-xl: 30px;
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.12);
-    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 10px 35px rgba(15, 23, 42, 0.35);
     --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.3);
 
     /* Transitions */
@@ -101,7 +101,8 @@ button {
     background: none;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -109,7 +110,6 @@ html, body {
 /* Container */
 .container {
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
     padding: var(--container-padding);
 }
@@ -508,7 +508,7 @@ section {
    ========================================== */
 
 .about {
-    background: var(--dark-light);
+    background: #1b3360;
 }
 
 .about-content {
@@ -770,7 +770,7 @@ section {
    ========================================== */
 
 .experience {
-    background: var(--dark-light);
+    background: #1b3360;
 }
 
 .experience-content {
@@ -778,6 +778,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     align-items: start;
+    padding: 0 20px;
 }
 
 .column-title {
@@ -797,7 +798,7 @@ section {
 .timeline {
     position: relative;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .timeline::before {
@@ -1035,7 +1036,7 @@ section {
    ========================================== */
 
 .resume {
-    background: var(--dark-light);
+    background: #1b3360;
 }
 
 .resume-content {
@@ -1330,7 +1331,7 @@ section {
    ========================================== */
 
 .contact {
-    background: var(--dark-light);
+    background: #1b3360;
 }
 
 .contact-content {
@@ -1784,14 +1785,14 @@ section {
         grid-template-columns: 1fr;
     }
 
-   .timeline-content {
-       margin-right: 0;
-       padding: 22px;
-   }
+    .timeline-content {
+        margin-right: 0;
+        padding: 22px;
+    }
 
-   .timeline {
-       padding-right: 0;
-   }
+    .timeline {
+        padding-right: 0;
+    }
 
     .resume-highlights {
         grid-template-columns: repeat(2, 1fr);
@@ -1902,6 +1903,7 @@ section {
         font-size: 0.9rem;
     }
 }
+
 section {
     overflow-x: hidden;
 }
